@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import videoSrc from "./media/Timeline.mp4";
 import profileimg from "./media/aditya.jpg";
-import gitimg from "./media/github.png";
 
 function App() {
   return (
