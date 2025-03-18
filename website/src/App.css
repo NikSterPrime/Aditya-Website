@@ -108,10 +108,13 @@ video{
 
 #profilepic{
   margin-left: 70vb;
-  width: 21vb;
-  height: 19vh;
+  width: 15vb;
+  height: 14vh;
   margin-top: -30vh;
   border: solid #fbde4b 4px;
+  position: absolute;
+  top:45%;
+  left: -35.3%;
 }
 .project-button{
   display: flex;
@@ -191,4 +194,12 @@ video{
   .tech-stack {
     flex-direction: column;
   }
+}
+
+#centrehigh{
+  background: -webkit-linear-gradient(#6b1ebe,#fbde4b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 150%;
+
 }

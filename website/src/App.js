@@ -35,7 +35,7 @@ function App() {
               About <span>Me:</span>
             </h1>
             <p className="about-text">
-              Hey, I'm a Third Year Computer Science Engineering student at Atria Institute of Technology, Bangalore.
+              Hey, I'm <span id="centrehigh">Aditya Puranik</span> Third Year Computer Science Engineering student at Atria Institute of Technology, Bangalore.
               I'm passionate about building immersive websites, developing immersive video games, and leveraging technology 
               to solve real-world challenges effectively. I'm always looking for new opportunities to learn and grow.
             </p>
