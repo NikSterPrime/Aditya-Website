@@ -16,11 +16,16 @@
   position: fixed;
   width: 100%;
 }
+.gitimg{
+  height: 30px;
+  width: 30px;
+}
 ul{
   list-style-type: none;
   display: flex;
 }
 li{
+  margin-top: 10px;
   padding-left: 20px;
 }
 .Name{
@@ -86,19 +91,104 @@ a:hover{
   font-size: larger;
 }
 
+.about-heading{
+  background: -webkit-linear-gradient(#6b1ebe,#fbde4b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 video{
   border-radius: 10px;
     overflow: hidden;
 }
-
-
-
-
-
-
 
 .media-section{
   float: left;
   margin-left: 15%;
 }
 
+#profilepic{
+  margin-left: 70vb;
+  width: 21vb;
+  height: 19vh;
+  margin-top: -30vh;
+  border: solid #fbde4b 4px;
+}
+.project-button{
+  display: flex;
+  background-color: #fbde4b;
+  margin-left: 100vb;
+  margin-top: -10vh;
+  width: 40vb;
+  height: 3vb;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  border: solid white 2px;
+}
+
+/* Tech Stack Container */
+.tech-stack {
+  display: flex;
+  align-items: center;
+  background-color: #1a1a1a;
+  padding: 15px;
+  border-radius: 10px;
+  position: relative;
+  width: 15%;
+  margin-left: 27vb;
+  margin-top: 10;
+}
+
+/* Yellow Sidebar on the Left */
+.tech-stack-sidebar {
+  background-color: #facc15;
+  width: 10px;
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+/* Main Tech Stack Content */
+.tech-stack-content {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+/* Title */
+.tech-stack-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Tech Stack Items */
+.tech-stack-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+/* Individual Tech Item */
+.tech-item {
+  background-color: #d1d5db; /* Light gray */
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .tech-stack {
+    flex-direction: column;
+  }
+}

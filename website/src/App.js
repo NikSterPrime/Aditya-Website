@@ -1,5 +1,8 @@
 import React from 'react';
 import './App.css';
+import videoSrc from "./media/Timeline.mp4";
+import profileimg from "./media/aditya.jpg";
+import gitimg from "./media/github.png";
 
 function App() {
   return (
@@ -9,7 +12,6 @@ function App() {
             <ul>
               <li><a href="/">Home</a></li>
               <li><a href="/">Contact</a></li>
-              <li><a href="/"><img src=''></img></a></li>
            </ul>
            <div className="Name">
                 <h3>Aditya Puranik's Website</h3>
@@ -41,18 +43,37 @@ function App() {
           </div>
         {/* Large Rectangle - Video Player */}
           <div className="video-container">
-            <video width="854" height="480" controls>
-              <source src="./Timeline.mp4" type="video/mp4" />
+            <video width="854" height="480" autoPlay controls>
+              <source src={videoSrc} type="video/mp4" />
+              Your Browser does not support this format
             </video>
           </div>
         </div>
       </div>
 
+      <div className="tech-stack">
+  <div className="tech-stack-sidebar"></div> {/* Yellow Sidebar */}
+  <div className="tech-stack-content">
+    <h3 className="tech-stack-title">TECH STACK:</h3>
+    <div className="tech-stack-list">
+      <span className="tech-item">Python</span>
+      <span className="tech-item">C</span>
+      <span className="tech-item">Unreal Engine</span>
+      <span className="tech-item">JavaScript</span>
+      <span className="tech-item">HTML</span>
+      <span className="tech-item">CSS</span>
+      <span className="tech-item">ReactJS</span>
+    </div>
+  </div>
+</div>
+
+
+
         {/* Image and Video Section */}
       <div className="media-section">
           {/* Small Rectangle - Profile Image */}
         <div className="profile-image">
-          <img src="./aditya.jpg" alt="Profile" />
+          <img id='profilepic' src={profileimg} alt="Profile" />
         </div>
 
         {/* Button */}
@@ -60,6 +81,8 @@ function App() {
       </div>
     </div>
   </div>
+  
+  
   );
 };
 
