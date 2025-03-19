@@ -35,9 +35,13 @@ function App() {
               About <span>Me:</span>
             </h1>
             <p className="about-text">
-              Hey, I'm <span id="centrehigh">Aditya Puranik</span> Third Year Computer Science Engineering student at Atria Institute of Technology, Bangalore.
-              I'm passionate about building immersive websites, developing immersive video games, and leveraging technology 
-              to solve real-world challenges effectively. I'm always looking for new opportunities to learn and grow.
+            Hey, I'm <span id='centrehigh'>Aditya Puranik</span>, a Third-Year Computer Science Engineering student at Atria Institute of Technology, Bangalore. I have a strong passion for building immersive digital experiences, whether it's through interactive websites, game development, or real-world problem-solving with technology.
+
+I specialize in web development, game design, machine learning, and digital media production. I love pushing creative and technical boundaries by experimenting with 3D modeling, AI-driven applications, and real-time rendering in Unreal Engine. My projects range from developing AI-powered music generators to crafting cinematic storytelling experiences in game engines.
+
+<br></br>Beyond coding, I have experience in live production, video editing, and VFX, having worked on esports tournaments, TEDx events, and cinematic projects. My goal is to combine technology with creativity to create seamless user experiences and innovative solutions that make an impact.
+
+I'm always looking for new challenges, collaborations, and opportunities to grow. If you're working on an exciting project or have an idea worth exploring, feel free to reach out! 🚀
             </p>
           </div>
         {/* Large Rectangle - Video Player */}
