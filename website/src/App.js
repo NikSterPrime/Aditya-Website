@@ -73,6 +73,7 @@ function App() {
           {/* Small Rectangle - Profile Image */}
         <div className="profile-image">
           <img id='profilepic' src={profileimg} alt="Profile" />
+          <p id='nametag'>Aditya Puranik</p>
         </div>
 
         {/* Button */}

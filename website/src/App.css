@@ -106,16 +106,32 @@ video{
   margin-left: 15%;
 }
 
-#profilepic{
+.profile-image{
   margin-left: 70vb;
   width: 15vb;
-  height: 14vh;
+  height: 15vh;
   margin-top: -30vh;
   border: solid #fbde4b 4px;
   position: absolute;
   top:45%;
   left: -35.3%;
 }
+
+#profilepic{
+  width: 15vb;
+  height: 15vh;
+}
+
+#nametag{
+  left: 20%;
+  width: 15vb;
+  background-color:#fbde4b;
+  color: #100F14;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .project-button{
   display: flex;
   background-color: #fbde4b;
